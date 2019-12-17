@@ -1,0 +1,200 @@
+
+
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+
+
+@font-face {
+    font-family: "BOOTERZZ";
+    src: url("Roboto/BOOTERZZ.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+         
+
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: Roboto;
+    
+    color: black;
+}   
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+}
+.nav ul {
+    margin: 0;
+      
+} 
+.nav li{
+    display: inline;
+}
+.nav a { 
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none  
+    
+}
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-nav li {
+    padding: 0 3%; 
+
+}
+
+
+.nav a:hover {
+    background-color: grey;
+}
+
+
+
+.main-header {
+    background-color: rgba(0,0,0,.6);
+    background-image: url("images.jpeg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 100px;
+} 
+
+.content-section {
+    margin: 1em;
+ 
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto; 
+    padding: 0 1.5em;
+}
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    text-align: center;
+    font-size: 2.5em;
+}
+.band-image {
+    float: none;
+    margin: 30px;
+
+}
+.sections-header {
+    font-family: "roboto";
+    font-weight: lighter;
+    text-align: left;
+    font-size: 1em;
+    color: white;
+}
+
+.main-footer {
+    margin: 1em;
+    background-color: rgba(0,0,0,.6);
+    background-image: url("images.jpeg");
+    background-blend-mode: multiply;
+    background-color: slategray;
+    color: white;
+    padding: .20em 0;
+    text-decoration: none
+}
+.main-footer-container {
+    display: flex;
+    align-items: center ;
+
+}
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 20px;
+    height: 20px;
+}
+ 
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+   
+.btn-header {
+    margin: .1em 2% 2em 40%;
+    color: white;
+    border: 2px solid rgb(212, 208, 245);
+    background-color: rgba(255,255,255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter ;
+    
+}
+.btn-header:hover {
+    background-color:  rgba(255, 255, 255, 0.3);
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: rgb(255, 193, 168);
+     
+}
+.tour-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em ;
+    margin-bottom: 1em ;
+}
+
+.tour-row:last-child {
+    border-bottom: none;
+}
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+    
+}
+.tour-date{
+     color: #555;
+     font-size: bold;
+     width: 11% ;
+    
+
+}
+.tour-city {
+    width: 24%;
+}
+.tour-arena {
+    width: 50%;
+}
+.tour-btn{
+    max-width: 19%
+}
+.btn-primary {
+    color: whitesmoke;
+    background-color: teal;
+    border: none;
+    border-radius: .3em;
+    font-weight:  bold;
+
+    
+}
+.btn-primary:hover{
+    background-color: #2D9CDB;
+
+}
